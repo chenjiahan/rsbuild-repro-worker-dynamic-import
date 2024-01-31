@@ -33,7 +33,7 @@ const config = {
   module: {
     parser: {
       javascript: {
-        // dynamicImportMode: "eager",
+        dynamicImportMode: "eager",
       },
     },
   },
