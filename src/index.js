@@ -1,3 +1,3 @@
-import('./render').then(exports => {
-    exports.render()
-})
+import('./test').then((res) => {
+  console.log('res', res);
+});

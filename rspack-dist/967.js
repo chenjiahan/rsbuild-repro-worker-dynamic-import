@@ -1,0 +1,1 @@
+(self.webpackChunkrspack_repro=self.webpackChunkrspack_repro||[]).push([["967"],{4:function(r,e,c){"use strict";c.r(e),c.d(e,{bb:function(){return n}});let n="hello world"}}]);

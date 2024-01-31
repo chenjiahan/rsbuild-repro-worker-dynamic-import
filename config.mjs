@@ -13,7 +13,8 @@ if (!isRunningRspack && !isRunningWebpack) {
  * @type {import('webpack').Configuration | import('@rspack/cli').Configuration}
  */
 const config = {
-  mode: "development",
+  mode: "production",
+  target: "webworker",
   devtool: false,
   entry: {
     main: "./src/index",
@@ -28,6 +29,13 @@ const config = {
   },
   experiments: {
     css: true,
+  },
+  module: {
+    parser: {
+      javascript: {
+        // dynamicImportMode: "eager",
+      },
+    },
   },
 };
 
